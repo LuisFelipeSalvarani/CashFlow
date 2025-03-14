@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -15,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Application", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Communication", "src\CashFlow.Communication\CashFlow.Communication.csproj", "{2A4372C2-E566-4B35-BA50-5F0998CC2ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Esception", "src\CashFlow.Esception\CashFlow.Esception.csproj", "{3722B188-8D1E-4B57-92A3-1B91C0829F1A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Infrastructure", "src\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj", "{0517C04E-B2C5-48F0-ACBA-160D282001BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashFlow.Exception", "CashFlow.Exception\CashFlow.Exception.csproj", "{636E62D5-EE5D-4342-B6B6-67A722C54432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,14 +41,14 @@ Global
 		{2A4372C2-E566-4B35-BA50-5F0998CC2ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A4372C2-E566-4B35-BA50-5F0998CC2ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A4372C2-E566-4B35-BA50-5F0998CC2ED7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3722B188-8D1E-4B57-92A3-1B91C0829F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3722B188-8D1E-4B57-92A3-1B91C0829F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3722B188-8D1E-4B57-92A3-1B91C0829F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3722B188-8D1E-4B57-92A3-1B91C0829F1A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0517C04E-B2C5-48F0-ACBA-160D282001BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0517C04E-B2C5-48F0-ACBA-160D282001BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0517C04E-B2C5-48F0-ACBA-160D282001BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0517C04E-B2C5-48F0-ACBA-160D282001BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636E62D5-EE5D-4342-B6B6-67A722C54432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636E62D5-EE5D-4342-B6B6-67A722C54432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636E62D5-EE5D-4342-B6B6-67A722C54432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636E62D5-EE5D-4342-B6B6-67A722C54432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,8 +58,8 @@ Global
 		{32BC7EA1-40D1-47FC-8274-E62D0F6E1D98} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{01F8D5EE-5BD4-48BE-BE6E-F35051FD160D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2A4372C2-E566-4B35-BA50-5F0998CC2ED7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{3722B188-8D1E-4B57-92A3-1B91C0829F1A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{0517C04E-B2C5-48F0-ACBA-160D282001BF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{636E62D5-EE5D-4342-B6B6-67A722C54432} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A0D16C8-FFDE-425A-87EC-A26EF9D0771F}
