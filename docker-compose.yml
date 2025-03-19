@@ -1,0 +1,16 @@
+services:
+  mysql:
+    image: bitnami/mysql:latest
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_ROOT_USER=docker
+      - MYSQL_ROOT_PASSWORD=docker
+      - MYSQL_USER=docker
+      - MYSQL_PASSWORD=docker
+      - MYSQL_DATABASE=cashflow
+    volumes:
+      - cashflow_mysql_data:/bitnami/mysql/data
+
+volumes:
+  cashflow_mysql_data:
